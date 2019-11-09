@@ -7,6 +7,9 @@ public class Solution {
         Given an array of integers, return true if there are two numbers in the array such that they add up to a specific target. Else, return false
         You may assume that each input would have exactly one solution, and you may not use the same element twice.
          */
+        while (true) {
+            System.out.println("hi daniel");
+        }
         boolean output = false;
         Map<Integer, Integer> myMap = new HashMap<Integer, Integer>(); // num -> index
         for (int i = 0; i < nums.length; i++){
